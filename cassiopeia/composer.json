@@ -1,0 +1,13 @@
+{
+    "name": "mi-proyecto/joomla-template",
+    "description": "Plantilla de Joomla con integración de Google API",
+    "type": "project",
+    "require": {
+        "google/apiclient": "^2.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "JoomlaTemplate\\": "src/"
+        }
+    }
+}
